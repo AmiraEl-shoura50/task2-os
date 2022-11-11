@@ -7,9 +7,6 @@ on:
 
 
 
-
-
-
 jobes:
   build:
     runs-on: ubuntu-latest
@@ -18,7 +15,5 @@ jobes:
       - name: 'testing github action'
         run: pwd
 
-      - name: 'testing printing'
-        run: echo Amira 
-
+     
 
